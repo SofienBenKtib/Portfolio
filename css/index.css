@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .header {
   min-height: 100vh;
@@ -173,4 +174,42 @@ h3 {
   .services-col {
     flex-direction: column;
   }
+}
+/*--- Technologies ---*/
+.technologies {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.technologies-col {
+  flex-basis: 32%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.technologies-col img {
+  width: 100%;
+}
+.layer {
+  background: rgba(203, 195, 227, 0.9);
+  height: 35px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+}
+.technologies-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
 }
