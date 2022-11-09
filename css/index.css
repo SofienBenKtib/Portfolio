@@ -220,3 +220,23 @@ h3 {
   height: 150px;
   margin-top: 20px;
 }
+.contactText{
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.contact{
+  margin-left: 10%;
+  display: inline-flex;
+  align-items: center;
+  
+}
+.copyrights{
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 500;
+}
+.copyrightsWrapper{
+ margin-top: 30px;
+}
