@@ -130,7 +130,7 @@ nav .fa {
   padding-top: 100px;
 }
 .services-h1 {
-  font-size: 36px;
+  font-size: 65px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
@@ -190,12 +190,13 @@ h3 {
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
+  margin: 20px;
 }
 .technologies-col img {
   width: 100%;
 }
 .layer {
-  background: rgba(203, 195, 227, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   height: 35px;
   width: 100%;
   position: absolute;
@@ -212,4 +213,10 @@ h3 {
   font-size: 26px;
   bottom: 0;
   left: 50%;
+}
+.footer{
+  background-color: black;
+  width: auto;
+  height: 150px;
+  margin-top: 20px;
 }
